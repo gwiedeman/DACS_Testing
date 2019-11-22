@@ -1,0 +1,87 @@
+- title: "Menu item 1"
+  href: "/menuLevel1/file.md"
+  sub:
+    - title: "menu item 1.1"
+      href: "/menuLevel1/menuLevel2/file.md"
+...
+- title: "Menu item 3"
+  href: "/menuLevel1/file2.md"
+
+04_statement_of_principles.md
+05_overview_of_archival_description.md
+02_preface.md
+changelog.md
+06_part_I/01_introduction_to_describing_archival_materials.md
+06_part_I/02_chapter_01.md
+06_part_I/06_chapter_05/01_custodial_history.md
+06_part_I/06_chapter_05/02_immediate_source_of_acquisition.md
+06_part_I/06_chapter_05/04_accruals.md
+06_part_I/06_chapter_05/00_acquisition_and_appraisal_elements.md
+06_part_I/06_chapter_05/03_appraisal_destruction_and_scheduling_information.md
+06_part_I/09_chapter_08/00_description_control_element.md
+06_part_I/09_chapter_08/01_description_control.md
+06_part_I/08_chapter_07/00_notes_element.md
+06_part_I/08_chapter_07/01_notes.md
+06_part_I/03_chapter_02/06_name_of_creators.md
+06_part_I/03_chapter_02/07_administrative_biographical_history.md
+06_part_I/03_chapter_02/00_identity_elements.md
+06_part_I/03_chapter_02/04_date.md
+06_part_I/03_chapter_02/05_extent.md
+06_part_I/03_chapter_02/01_reference_code.md
+06_part_I/03_chapter_02/03_title.md
+06_part_I/03_chapter_02/02_name_and_location_of_repository.md
+06_part_I/05_chapter_04/01_conditions_governing_access.md
+06_part_I/05_chapter_04/00_conditions_of_access_and_use_elements.md
+06_part_I/05_chapter_04/03_technical_access.md
+06_part_I/05_chapter_04/02_physical_access.md
+06_part_I/05_chapter_04/06_finding_aids.md
+06_part_I/05_chapter_04/04_conditions_governing_reproduction_and_use.md
+06_part_I/05_chapter_04/05_languages_and_scripts_of_the_material.md
+06_part_I/04_chapter_03/00_content_and_structure_elements.md
+06_part_I/04_chapter_03/01_scope_and_content.md
+06_part_I/04_chapter_03/02_system_of_arrangement.md
+06_part_I/07_chapter_06/02_existence_and_location_of_copies.md
+06_part_I/07_chapter_06/04_publication_note.md
+06_part_I/07_chapter_06/01_existence_and_location_of_originals.md
+06_part_I/07_chapter_06/00_related_materials_elements.md
+06_part_I/07_chapter_06/03_related_archival_materials.md
+09_appendices/appendix_b_companion_standards.md
+09_appendices/appendices.md
+09_appendices/appendix_a_2004_preface.md
+09_appendices/appendix_c_crosswalks.md
+08_part_II/02_chapter_09.md
+08_part_II/01_introduction_to_archival_authority_records.md
+08_part_II/08_sample_archival_authority_record.md
+08_part_II/05_chapter_12/03_nature_of_relationship.md
+08_part_II/05_chapter_12/04_dates_of_the_relationship.md
+08_part_II/05_chapter_12/02_type_of_related_entity.md
+08_part_II/05_chapter_12/00_related_corporate_bodies_persons_and_families.md
+08_part_II/05_chapter_12/01_names_identifiers_of_related_corporate_bodies_persons_or_families.md
+08_part_II/04_chapter_11/06_mandates_source_of_authority.md
+08_part_II/04_chapter_11/05_functions_occupations_and_activities.md
+08_part_II/04_chapter_11/03_places.md
+08_part_II/04_chapter_11/02_historical_summary.md
+08_part_II/04_chapter_11/04_legal_status.md
+08_part_II/04_chapter_11/00_description_of_the_person_family_or_corporate_body.md
+08_part_II/04_chapter_11/07_internal_structure_genealogy.md
+08_part_II/04_chapter_11/01_dates_of_existence.md
+08_part_II/07_chapter_14/02_types_of_related_resources.md
+08_part_II/07_chapter_14/00_related_archival_materials_and_other_resources.md
+08_part_II/07_chapter_14/04_dates_of_related_resources_and_or_relationships.md
+08_part_II/07_chapter_14/03_nature_of_relationship_to_related_resources.md
+08_part_II/07_chapter_14/01_identifiers_and_titles_of_related_resources.md
+08_part_II/03_chapter_10/00_form_of_the_name.md
+08_part_II/03_chapter_10/04_identifiers_for_corporate_bodies.md
+08_part_II/03_chapter_10/03_variant_forms_of_names.md
+08_part_II/03_chapter_10/01_authorized_form_of_the_name.md
+08_part_II/03_chapter_10/02_type_of_entity.md
+08_part_II/06_chapter_13/06_date(s)_of_authority_record_creation_and_revision.md
+08_part_II/06_chapter_13/08_sources.md
+08_part_II/06_chapter_13/00_authority_record_management.md
+08_part_II/06_chapter_13/03_rules_or_conventions.md
+08_part_II/06_chapter_13/01_repository_code.md
+08_part_II/06_chapter_13/04_status.md
+08_part_II/06_chapter_13/05_level_of_detail.md
+08_part_II/06_chapter_13/07_languages_or_scripts.md
+08_part_II/06_chapter_13/02_authority_record_identifier.md
+08_part_II/06_chapter_13/09_maintenance_information.md
