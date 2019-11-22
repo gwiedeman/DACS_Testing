@@ -6,7 +6,7 @@
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead"><a href="/changelog.html#dacs-201902">Version 2019.02</a></p>
     </div>
 
     <nav class="sidebar-nav">
@@ -21,15 +21,38 @@
       {% assign url_parts_size = url_parts | size %}
       {% assign rm = url_parts | last %}
       {% assign base_url = page.url | replace: rm %}
-      {{ base_url }}
+      {% assign chapters = site.pages | sort:"url" %}
+      
       <ul>
-      {% for node in site.pages %}
-        {% if node.url contains base_url %}
+        {% for node in chapters %}
           {% assign node_url_parts = node.url | split: '/' %}
           {% assign node_url_parts_size = node_url_parts | size %}
           {% assign filename = node_url_parts | last %}
-          <li><a href='{{node.url}}'>{{node.title}}</a></li>
-        {% endif %}
+
+          {% if filename contains "00_" or filename contains "chapter" or node_url_parts_size == 2 %}
+            {% if node.title and node.title != "404: Page not found" %}
+              <li><a href='{{node.url}}'>{{node.title}}</a></li>
+
+              {% if node_url_parts[2] == url_parts[2] %}
+                {% if filename contains "chapter" or node_url_parts_size == 2 %}
+
+                {% else %}
+                  <ul>
+                    {% for node in site.pages %}
+                      {% if node.url contains base_url %}
+                        {% assign node_url_parts = node.url | split: '/' %}
+                        {% assign node_url_parts_size = node_url_parts | size %}
+                        {% assign subfilename = node_url_parts | last %}
+                        {% if subfilename != filename %}
+                          <li><a href='{{node.url}}'>{{node.title}}</a></li>
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              {% endif %}
+            {% endif %}
+          {% endif %}
       {% endfor %}
       </ul>
 

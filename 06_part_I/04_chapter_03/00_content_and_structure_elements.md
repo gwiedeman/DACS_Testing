@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Chapter 3
+title: 'Chapter 3: Content and Structure Elements'
 ---
 ### Chapter 3 
 
 # Content and Structure Elements
 
-3.1   [Scope and Content (Required)](#scope-and-content-required)
-3.2   [System of Arrangement (Added Value)](#system-of-arrangement-added-value)
+* 3.1   [Scope and Content (Required)](01_scope_and_content.html)
+* 3.2   [System of Arrangement (Added Value)](02_system_of_arrangement.html)
 
